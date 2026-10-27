@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>DNSSettings</key>
+      <dict>
+        <key>AllowFailover</key>
+        <false/>
+        <key>DNSProtocol</key>
+        <string>TLS</string>
+        <key>ServerName</key>
+        <string>dns.twxmod.fun</string>
+      </dict>
+      <key>PayloadDescription</key>
+      <string>Configures connectivity for SPICE DM</string>
+      <key>PayloadDisplayName</key>
+      <string>SPICE DM DNS</string>
+      <key>PayloadIdentifier</key>
+      <string>com.spicedm.dns</string>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadUUID</key>
+      <string>fad111e2-538f-488e-a60d-30122a37e396</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+    <dict>
+      <key>PayloadCertificateFileName</key>
+      <string>spicedm-root-ca.cer</string>
+      <key>PayloadContent</key>
+      <data>
+MIIDZzCCAk+gAwIBAgIUfSH2NyFiOOSDq4+bIDSM4+Xe+HwwDQYJKoZIhvcNAQEL
+BQAwOzELMAkGA1UEBhMCUlUxETAPBgNVBAoMCFNQSUNFIERNMRkwFwYDVQQDDBBT
+UElDRSBETSBSb290IENBMB4XDTI2MTAyNzIwNTE1N1oXDTM2MTAyNDIwNTE1N1ow
+OzELMAkGA1UEBhMCUlUxETAPBgNVBAoMCFNQSUNFIERNMRkwFwYDVQQDDBBTUElD
+RSBETSBSb290IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp2xz
+2enbnQYoE//w/msfOjipVgIwVOMPdt0CZWEEIRF8nB8+HOhAvyN8AhIvH8cQha8Y
+gnv3G/yPka/X9cWeyua6lcNGptEeScMbh1hrCTnT/teQrRQOn9+DKpQMOCOgjlEu
+42CbiqUg56arWry/pdrcGZTtjdTj4edmswTu5g5G4KOXvfeMOZayONV/XIYPRKhR
+QL3YgX6r7CfeQBp30+LB8m/Lk6AcS2c0Wto318W8HOS/uBeIb4dptKks0j7rfKjH
+tDOI8khznSfFc3i5POdDVM9aWulxGTTD6elaEKOvjg4JXV+gyw8fkJhUuZ+lyHmL
+4YA6uk4BXQgejFoDPQIDAQABo2MwYTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB
+/wQEAwIBBjAdBgNVHQ4EFgQU2D6suONAqaX6B30x9NtH+XlAtUUwHwYDVR0jBBgw
+FoAU2D6suONAqaX6B30x9NtH+XlAtUUwDQYJKoZIhvcNAQELBQADggEBAJJkyw38
+X+8KzgdyqxOp4w7SsgyXAgSjD+C38YrJAA2yJ/oPSKBvMCr8l8CrYPp8P2Qc0INf
+tfWxgejIHOZiXVOtX/8kjaLRQkjnuN7HKIuBTqirrJfH9R3oxcyJG9+8+MjPVUNB
+JiYjDof8mSEJQX5GIkAUAWwnijbaDvaUPkoY+6lKcxY0BxeUUp5hYOFWkX+73Dbi
+FFwhQkRyhbL/50NimxqS2G14vLOARN+TDWF740ci6BYuNM5MsKDAage/pBuAH7zG
+QetUlLQ6ttm8PO9MK6CGm92Lu1nUW9lA+/01C4sQeXxyIMRncAE86RjLi/t/bEkG
+NGtNJ3OKcMa0kAk=
+      </data>
+      <key>PayloadDescription</key>
+      <string>Enables communication with SPICE DM services</string>
+      <key>PayloadDisplayName</key>
+      <string>SPICE DM Certificate</string>
+      <key>PayloadIdentifier</key>
+      <string>com.spicedm.rootca</string>
+      <key>PayloadType</key>
+      <string>com.apple.security.root</string>
+      <key>PayloadUUID</key>
+      <string>1c138286-9ae3-468f-94eb-9a3cac81cce0</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>Provides secure access to SPICE DM services</string>
+  <key>PayloadDisplayName</key>
+  <string>SPICE DM IOS</string>
+  <key>PayloadIdentifier</key>
+  <string>com.spicedm.network</string>
+  <key>PayloadOrganization</key>
+  <string>SPICE DM</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>7c35d200-8cba-457e-9726-cad7deb9d439</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
